@@ -6,8 +6,8 @@ import Img from '../../Images/Scarecrow.png';
 
 const ImgComp = () => {
   return (
-    <div>
-      <img src={Img} alt='not found' />
+    <div className='img-cnt'>
+      <img className='img' src={Img} alt='not found' />
     </div>
   );
 };
