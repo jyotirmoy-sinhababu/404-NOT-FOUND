@@ -1,6 +1,8 @@
 .home-cnt {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 65px;
+  padding-top: 165px;
   gap: 170px;
+  width: 100%;
+  max-width: 1500px;
 }

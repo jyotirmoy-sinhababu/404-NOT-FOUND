@@ -1,6 +1,7 @@
 .text-cnt {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 
 .alert-txt {
@@ -36,6 +37,7 @@
   height: 58px;
   left: 740px;
   top: 663px;
+  cursor: pointer;
 }
 
 .btn {
@@ -53,4 +55,5 @@
   color: #ffffff;
   background: #333333;
   border-radius: 7px;
+  cursor: pointer;
 }
