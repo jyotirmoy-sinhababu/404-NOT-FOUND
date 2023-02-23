@@ -1,6 +1,8 @@
 .img-cnt {
   display: flex;
   padding-left: 179px;
+  width: 100%;
+  max-width: 750px;
 }
 
 .img {

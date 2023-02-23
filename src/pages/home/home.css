@@ -1,8 +1,18 @@
 .home-cnt {
   display: flex;
-  flex-wrap: wrap;
   padding-top: 165px;
   gap: 170px;
   width: 100%;
   max-width: 1500px;
+}
+
+@media screen and (max-width: 800px) {
+  .home-cnt {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home-txt-cnt {
+    display: flex;
+    padding-left: 175px;
+  }
 }

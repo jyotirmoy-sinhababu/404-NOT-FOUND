@@ -7,8 +7,13 @@ import TextComp from '../../components/textcomp/TextComp';
 const Home = () => {
   return (
     <div className='home-cnt'>
-      <ImgComp />
-      <TextComp />
+      <div>
+        <ImgComp />
+      </div>
+
+      <div className='home-txt-cnt'>
+        <TextComp />
+      </div>
     </div>
   );
 };
