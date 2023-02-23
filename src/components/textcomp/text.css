@@ -59,3 +59,18 @@
   border-radius: 7px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+  .text-cnt {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .alert-txt {
+    font-size: 84px;
+    line-height: 95px;
+  }
+  .msg-txt {
+    font-size: 34px;
+  }
+}

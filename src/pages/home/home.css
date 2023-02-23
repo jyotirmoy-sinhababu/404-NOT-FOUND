@@ -6,10 +6,12 @@
   max-width: 1500px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .home-cnt {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 65px;
+    gap: 100px;
   }
   .home-txt-cnt {
     display: flex;
